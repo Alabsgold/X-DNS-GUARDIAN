@@ -6,6 +6,7 @@ import { SearchBar } from "@/components/SearchBar";
 import { SafetyScorecard } from "@/components/SafetyScorecard";
 import { ThreatBadges } from "@/components/ThreatBadges";
 import { ShieldCheck, Server, Globe, Lock } from "lucide-react";
+import { cn } from "@/lib/utils";
 
 export default function Home() {
   const [loading, setLoading] = useState(false);
