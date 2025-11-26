@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+dnspython
+motor
+rdap
+python-whois
+pydantic
+pydantic-settings
